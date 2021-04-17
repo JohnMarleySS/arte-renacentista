@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'castellar';
+    src: url(./_font/Castellar.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.container {
+    background-image: url(./_img/background.png);
+    background-repeat: no-repeat;
+}
+
+.textos {
+    text-align: center;
+}
+
+.fonte {
+    font-family: 'castellar';
+    font-size: 40px;
+}
+
+.grupo-1,
+.grupo-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cubo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    align-items: center;
+}
+
+img {
+    height: 300px;
+    padding: 10px;
+}
+
+.zoom img {
+    transition: all 0.3s;
+}
+
+.zoom:hover img {
+    transform: scale(1.1);
+}
